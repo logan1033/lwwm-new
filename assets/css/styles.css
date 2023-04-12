@@ -594,7 +594,8 @@ h2.month-name p {
     }  
 
     #nav {
-        display: none;
+        display: none !important;
+        
     }
 }
 
