@@ -558,7 +558,7 @@ hr {
     }
 
 .main1 {
-    margin-top: 3.5em;
+    margin-top: 3em;
 }
 
 .month-name {
@@ -696,4 +696,10 @@ div.gtr-uniform section span:hover {
 
 #sub {
     display: block;
+}
+
+div.container {
+    background-color: rgba(20,42,111,.75);
+    padding: 1em 1em 1em 1em;
+    border-radius: 2em;
 }

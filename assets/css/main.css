@@ -84,6 +84,14 @@ input, select, textarea {
 
 	html, body {
 		background: #142a6f;
+		background-image: url("/images/water.jpg");
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 100%;
+		width: 100%;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3828,7 +3836,7 @@ input, select, textarea {
 
 				.spotlight .content {
 					border-top-width: 0.2em !important;
-					padding: 3.25em 1.5em 1.25em 1.5em !important;
+					padding: 3em 1.5em 1.25em 1.5em !important;
 				}
 
 		/* Wrapper */
