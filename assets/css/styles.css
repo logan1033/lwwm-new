@@ -703,3 +703,36 @@ div.container {
     padding: 1em 1em 1em 1em;
     border-radius: 2em;
 }
+
+/* Pre-System */
+.dirtiest {
+    background-color: #7c5436 !important;
+    border-color: #b88654 !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;    
+}
+
+/* After 5-micro */
+.dirtier {
+    background-color: #a17446 !important;
+    border-color: #f0d0b1 !important;
+}
+
+
+/* After 0.5-micron */
+.dirty {
+    background-color: #d8aa7c !important;
+    border-color: #ccd9f2 !important;
+    
+}
+
+/* After Ozone */
+.clean {
+    background-color: #80afe4!important;
+    border-color: #2CD0C3 !important;
+    
+}
+
+th {
+    text-align: center !important;
+}
