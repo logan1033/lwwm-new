@@ -709,7 +709,11 @@ div.container {
     background-color: #7c5436 !important;
     border-color: #b88654 !important;
     padding-top: 1em !important;
-    padding-bottom: 1em !important;    
+    padding-bottom: 1em !important;  
+}
+
+.dirtiest hr {
+    border-bottom: solid 2px #b88654;
 }
 
 /* After 5-micro */
@@ -718,19 +722,29 @@ div.container {
     border-color: #f0d0b1 !important;
 }
 
+.dirtier hr {
+    border-bottom: solid 2px #f0d0b1;
+}
+
 
 /* After 0.5-micron */
 .dirty {
     background-color: #d8aa7c !important;
-    border-color: #ccd9f2 !important;
-    
+    border-color: #ccd9f2 !important;  
+}
+
+.dirty hr {
+    border-bottom: solid 2px #ccd9f2;
 }
 
 /* After Ozone */
 .clean {
     background-color: #80afe4!important;
     border-color: #2CD0C3 !important;
-    
+}
+
+.clean hr {
+    border-bottom: solid 2px #2CD0C3;
 }
 
 th {

@@ -90,7 +90,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
-		height: 100%;
+		height: auto;
 		width: 100%;
 	}
 
@@ -2970,7 +2970,7 @@ input, select, textarea {
 			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
-			background-size: contain;
+			background-size: cover;
 			content: '';
 			display: block;
 			height: 1.5em;
@@ -3141,7 +3141,7 @@ input, select, textarea {
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 1em 3em;
 			top: 0;
 			width: 28em;
 		}
@@ -3460,7 +3460,8 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background:transparent;
+		/* background:transparent; */
+		opacity: 75%;
 		box-shadow: none;
 		position: absolute;
 	}
